@@ -4,6 +4,17 @@
 <style>
 table, th, td {
   border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+table, th, td {
+  border: 2px solid black;
+  padding: 7px;
+}
+table {
+  border-spacing: 15px;
 }
 </style>
 </head>
@@ -21,7 +32,7 @@ table, th, td {
   <tr>
     <th>Cats</th>
     <th>Dogs</th>
-    <th>Hamsters</th>
+    <th>Gerbils</th>
     <th>Turtles</th>
     <th>Bunny</th>
   </tr>
@@ -61,6 +72,48 @@ table, th, td {
     <td>2</td>
   </tr>
 </table>
+<p></p>
 
+<style>
+thead {color:green;}
+tbody {color:blue;}
+tfoot {color:red;}
+
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+
+<body>
+
+<table>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+      <th>Earnings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+      <td>$850</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+      <td>$900</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+      <td>$1750</td>
+    </tr>
+  </tfoot>
+</table>
 </body>
 </html>
