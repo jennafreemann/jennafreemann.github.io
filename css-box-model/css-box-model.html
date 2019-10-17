@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Box Model</title>
+<style>
+
+#first {background-color: lightgrey; width: 300px; border: 15px dotted pink; padding: 50px; margin: 20px; outline-style: dashed; outline-width:2px;}
+
+#second {background-color: lightpink;
+width: 600px;border-top: 2px dotted; border-bottom: 2px dotted; border-right: 3px solid; border-left: 3px solid;
+padding-top: 20px; padding-bottom: 20px; padding-left: 30px; padding-right: 30px;
+margin-top: 20px; margin-bottom: 20px; margin-left: 30px; margin-right:30px;
+outline-style: dashed; outline-width:2px;}
+
+#third {background-color: lightblue; width: 200px;
+border-top: 1px dotted; border-bottom: 2px dashed; border-left: 3px solid; border-right: 4px double;
+padding-top: 50px; padding-right: 30px; padding-bottom: 60px; padding-left: 80px;
+margin-top: 100px; margin-bottom: 90px; margin-right: 150px; margin-left: 80px;
+outline-style:solid; outline-width: 3px;}
+
+</style>
+</head>
+<body>
+
+<div id="first">
+<p>
+content width: 300px <br>
+top margin: 20px <br>
+right margin: 20px <br>
+bottom margin: 20px <br>
+left margin: 20px <br>
+top border: 15px <br>
+right border: 15px <br>
+bottom border: 15px <br>
+left border: 15px <br>
+top padding: 50px <br>
+right padding: 50px <br>
+bottom padding: 50px <br>
+left padding: 50px <br>
+outline thickness: 2px <br>
+TOTAL BOX WIDTH: 642px
+</p></div>
+
+<div id="second">
+<p>
+content width: 600px <br>
+top margin: 20px <br>
+right margin: 30px <br>
+bottom margin: 20px <br>
+left margin: 30px <br>
+top border: 2px <br>
+right border: 3px <br>
+bottom border: 2px <br>
+left border: 3px <br>
+top padding: 20px <br>
+right padding: 30px <br>
+bottom padding: 20px <br>
+left padding: 30px <br>
+outline thickness: 2px <br>
+TOTAL BOX WIDTH: 812px
+</p></div>
+
+<div id="third">
+<p>
+content width: 200px <br>
+top margin: 100px <br>
+right margin: 150px <br>
+bottom margin: 90px <br>
+left margin: 80px <br>
+top border: 1px <br>
+right border: 4px <br>
+bottom border: 2px <br>
+left border: 3px <br>
+top padding: 50px <br>
+right padding: 30px <br>
+bottom padding: 60px <br>
+left padding: 80px <br>
+outline thickness: 3px <br>
+TOTAL BOX WIDTH: 853px
+</p></div>
+
+</body>
+</html>
