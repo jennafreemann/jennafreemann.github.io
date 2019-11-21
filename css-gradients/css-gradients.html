@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Gradients</title>
+<style>
+.square {
+  height: 400px;
+  width: 400px;
+}
+
+ #one {
+  height: 400px;
+  background-color: red;
+  background-image: linear-gradient(red, yellow);
+}
+
+#two {
+  height: 400px;
+  background-color: red; 
+  background-image: linear-gradient(to right, red , yellow, orange); 
+}
+#three {
+  height: 400px;
+  background-color: red; 
+  background-image: linear-gradient(to bottom right, cyan, orange, white, gray);
+}
+
+#four {
+    height: 400px;
+    background-color: red;
+   background-image: linear-gradient(to left, rgba(209, 56, 240, 1), rgba(56, 56, 240, 1), rgba(56, 154, 240, 1), rgba(56, 240, 139, 0), rgba(148, 240, 56, 1));
+}
+#five {
+     height: 400px;
+  background-image: repeating-linear-gradient( blue 10%, purple 20%);
+}
+
+#six {
+     height: 400px;
+  background-image: repeating-linear-gradient(blue, green 10%, blue 20%);
+}
+
+#seven {  
+    height: 400px;
+  width: 400px;
+  background-color: red;
+  background-image: radial-gradient(red, yellow, green, blue);
+}
+</style>
+</head>
+<body>
+<div class="square">
+<div id=one></div>
+<div id=two></div>
+<div id=three></div>
+<div id=four></div>
+<div id=five></div>
+<div id=six></div>
+<div id=seven></div>
+</div>
+</body>
+</html>
